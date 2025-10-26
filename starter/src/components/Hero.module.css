@@ -1,0 +1,93 @@
+.hero {
+  padding-top: 6rem;
+}
+
+.grid {
+  display: grid;
+  gap: 3rem;
+  align-items: center;
+}
+
+.eyebrow {
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  letter-spacing: 0.18em;
+  margin-bottom: 1.5rem;
+  color: var(--color-primary);
+}
+
+h1 {
+  font-size: clamp(2.5rem, 5vw, 3.5rem);
+  margin-bottom: 1.25rem;
+  line-height: 1.08;
+}
+
+h1 span {
+  color: var(--color-secondary);
+}
+
+p {
+  color: var(--color-muted);
+  max-width: 540px;
+  margin-bottom: 2rem;
+}
+
+.actions {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.panel {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.blade,
+.bladeAlt {
+  border-radius: 20px;
+  padding: 1.75rem;
+  background: rgba(13, 23, 41, 0.75);
+  border: 1px solid rgba(52, 214, 255, 0.18);
+  box-shadow: 0 32px 70px -40px rgba(0, 0, 0, 0.65);
+}
+
+.blade pre {
+  overflow-x: auto;
+  font-family: "Space Grotesk", monospace;
+  background: rgba(6, 11, 22, 0.65);
+  padding: 1rem;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.bladeAlt h3 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.bladeAlt ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.5rem;
+}
+
+.caption {
+  font-size: 0.75rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-muted);
+  margin-bottom: 1rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+@media (min-width: 960px) {
+  .grid {
+    grid-template-columns: 1.1fr 1fr;
+  }
+}
