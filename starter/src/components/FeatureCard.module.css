@@ -14,14 +14,14 @@
   border-color: rgba(255, 168, 87, 0.35);
 }
 
-header {
+.card header {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   gap: 1rem;
 }
 
-h3 {
+.card h3 {
   margin: 0;
   font-size: 1.25rem;
 }

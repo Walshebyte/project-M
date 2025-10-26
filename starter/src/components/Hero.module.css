@@ -17,17 +17,17 @@
   color: var(--color-primary);
 }
 
-h1 {
+.grid h1 {
   font-size: clamp(2.5rem, 5vw, 3.5rem);
   margin-bottom: 1.25rem;
   line-height: 1.08;
 }
 
-h1 span {
+.grid h1 span {
   color: var(--color-secondary);
 }
 
-p {
+.grid p {
   color: var(--color-muted);
   max-width: 540px;
   margin-bottom: 2rem;

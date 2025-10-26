@@ -30,10 +30,9 @@ export default function Hero() {
               {/* Replace the sample script with a real-time feed from your automation pipeline. */}
               <pre>
                 <code>
-                  addappid(441590)
-                  {"\n"}
-                  addappid(228980, 1, "9E8F-***-B4C2"){"\n"}
-                  setManifestid(228980, "9817234567890123", 0)
+                  {`addappid(441590)
+addappid(228980, 1, "9E8F-***-B4C2")
+setManifestid(228980, "9817234567890123", 0)`}
                 </code>
               </pre>
             </div>
